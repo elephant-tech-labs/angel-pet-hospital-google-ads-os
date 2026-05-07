@@ -12,3 +12,9 @@ This file records every important Google Ads, landing page, tracking, or strateg
 | 2026-05-06 | Corrected phone number to (425) 673-0700 | Phone consistency | Guri | Calls route correctly |
 | 2026-05-06 | Fixed bidding to Maximize Clicks | Tracking not ready for Smart Bidding | Guri | CPC and search quality |
 | 2026-05-06 | Turned Display Network off | Keep campaign Search-only | Guri | Avoid display leakage |
+| 2026-05-06 | Temporarily re-enabled Campaign #1 | Concern that the new urgent campaign may receive too few clicks | Guri | Required immediate QA because Campaign #1 was legacy/previously weak |
+| 2026-05-06 | Codex QA found Campaign #1 unsafe | Campaign #1 had Display/content on, no Global Vet Waste Negatives, Maximize Conversions/tCPA, `business.google.com` final URL, and poor search-term quality | Codex QA | Pause Campaign #1 again |
+| 2026-05-06 | Paused Campaign #1 again | Codex QA found direct waste and structural risk after $86.80 spend, 27 clicks, and poor search-term quality | Guri | Stop legacy campaign waste |
+| 2026-05-06 | Urgent campaign bidding mismatch found | Live urgent campaign showed Maximize Conversions/tCPA $17.40 instead of approved Maximize Clicks | Codex QA | Restore Maximize Clicks |
+| 2026-05-06 | Restored urgent campaign bidding to Maximize Clicks | Tracking is not mature enough for Smart Bidding and repo-approved setup requires Maximize Clicks | Guri | Keep urgent campaign controlled |
+| 2026-05-06 | Saved Campaign #1 search-term learnings for General Vet research | Legacy data showed general-vet and competitor/far-location patterns useful for future campaign planning | Guri | Build General Vet cleanly instead of reusing legacy structure |
