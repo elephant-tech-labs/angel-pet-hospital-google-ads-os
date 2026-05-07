@@ -4,13 +4,32 @@
 
 Search - General Vet - Edmonds
 
-## Status
+## Current Status
 
 ```text
-Not ready for launch yet
+Needs landing page first
 ```
 
-This file should be updated after research and strategy review.
+The General Vet campaign is approved for planning and build preparation, but it should not be launched until the dedicated landing page is live and QA-passed.
+
+Required landing page:
+
+```text
+https://www.angelpethospital.com/veterinarian-edmonds
+```
+
+---
+
+## Strategic Verdict
+
+General Vet is worth building.
+
+Reason:
+
+- old Campaign #1 and urgent campaign search terms showed general-vet demand
+- terms like `vet near me`, `veterinary clinic near me`, and animal/pet hospital variants are relevant
+- legacy data confirmed demand but also proved the old structure was unsafe
+- the campaign should be rebuilt cleanly instead of reusing Campaign #1
 
 ---
 
@@ -18,41 +37,63 @@ This file should be updated after research and strategy review.
 
 | Requirement | Status | Notes |
 |---|---|---|
-| Research brief completed | Not started | |
-| Keyword research completed | Not started | |
-| Competitor research completed | Not started | |
-| Final keyword list approved | Not started | |
-| Ad group structure approved | Not started | |
-| Negative keyword plan approved | Not started | |
-| Landing page brief completed | Not started | |
-| Landing page built | Not started | |
-| Tracking plan confirmed | Not started | |
-| Budget approved | Not started | |
-| Codex pre-launch QA completed | Not started | |
+| Research brief completed | Complete | General Vet research brief exists |
+| Keyword research completed | In progress | Preliminary keywords created |
+| Competitor research completed | In progress | Legacy competitor terms noted |
+| Final keyword list approved | Draft complete | Needs Codex pre-build audit |
+| Ad group structure approved | Draft complete | 4 ad groups recommended |
+| Negative keyword plan approved | Draft complete | Global + campaign-specific negatives |
+| Ad copy approved | Draft complete | General Vet RSA copy prepared |
+| Asset plan approved | Draft complete | Call, sitelinks, callouts, snippets |
+| Landing page brief completed | Complete | `/veterinarian-edmonds` brief exists |
+| Landing page built | Not started | Required before launch |
+| Tracking plan confirmed | Partial | Max Clicks safe, Smart Bidding not safe |
+| Budget approved | Draft | $30/day recommended |
+| Codex pre-launch QA completed | Not started | Required after files and landing page are ready |
 
 ---
 
 ## Recommended Starting Budget
 
-Initial recommendation:
-
 ```text
 $30/day
 ```
 
-Only launch if the urgent campaign is stable enough and total account budget supports this.
+This should run alongside the urgent campaign at $70/day.
+
+Total planned daily budget:
+
+```text
+$100/day
+```
+
+Do not increase total budget yet.
 
 ---
 
 ## Recommended Bidding
 
-Initial recommendation:
+Launch with:
 
 ```text
 Maximize Clicks
 ```
 
-Do not use Target CPA or Maximize Conversions until tracking is clean and enough real lead data exists.
+Optional CPC ceiling:
+
+```text
+$5 to $7
+```
+
+Do not use:
+
+```text
+Target CPA
+Maximize Conversions
+Broad Match
+```
+
+until conversion tracking and lead quality are mature.
 
 ---
 
@@ -74,102 +115,162 @@ AI Max / Final URL Expansion
 
 ---
 
-## Recommended Landing Page
+## Recommended Location Targeting
 
-Preferred landing page:
+Core service area:
 
 ```text
-https://www.angelpethospital.com/veterinarian-edmonds
+Edmonds
+Lynnwood
+Mountlake Terrace
+Shoreline
+Woodway
+Brier
 ```
 
-Do not use homepage long-term.
-
----
-
-## Launch Risks
-
-Potential risks:
-
-- campaign overlaps with urgent campaign
-- broad general terms spend without leads
-- tracking is not mature
-- landing page not ready
-- budget becomes spread too thin
-- general vet terms are less urgent and may convert slower
-- Google may push broad match or Smart Bidding too early
-
----
-
-## Launch Decision
-
-Final decision should be one of:
+Use:
 
 ```text
-Ready to launch
-Delay
-Needs more research
-Needs landing page first
-Needs tracking first
-Needs budget approval
+Presence only
 ```
 
-Current decision:
+Do not use:
 
 ```text
-Needs research and landing page first
+Presence or interest
 ```
 
 ---
 
-## Final Approved Build
+## Recommended Ad Schedule
 
-Fill this in after approval.
+Use clinic phone-answering hours:
 
-### Campaign Name
+```text
+Monday-Saturday
+9:00 AM - 7:00 PM
+```
+
+No Sunday unless the clinic answers calls and books appointments on Sunday.
+
+---
+
+## Recommended Campaign Structure
+
+Campaign:
 
 ```text
 Search - General Vet - Edmonds
 ```
 
-### Budget
+Ad groups:
 
 ```text
-$30/day
+Vet / Veterinarian Near Me
+Animal Hospital / Veterinary Clinic
+Dog & Cat Vet
+Local City Vet
 ```
 
-### Bidding
+---
 
-```text
-Maximize Clicks
-```
-
-### Final URL
+## Recommended Final URL
 
 ```text
 https://www.angelpethospital.com/veterinarian-edmonds
 ```
 
-### Ad Groups
+Do not send General Vet traffic to the homepage.
 
-| Ad Group | Status |
-|---|---|
-| Vet Near Me | Pending |
-| Animal Hospital | Pending |
-| Dog and Cat Vet | Pending |
-| New Patient Vet | Pending |
-| Local Veterinarian | Pending |
+---
+
+## Required Negatives
+
+The campaign must use:
+
+- Global Vet Waste Negatives
+- campaign-specific urgent negatives
+- competitor negatives
+- far-location negatives where justified
+
+Required urgent negatives:
+
+```text
+"urgent vet"
+"urgent care vet"
+"emergency vet"
+"emergency animal hospital"
+"pet emergency"
+"vet open now"
+"open now"
+"same day vet"
+```
+
+---
+
+## Launch Risks
+
+| Risk | Severity | Control |
+|---|---|---|
+| Campaign overlaps with Urgent | High | Add urgent negatives |
+| Broad general terms waste spend | High | Exact/Phrase only, daily search-term review |
+| Landing page not live | Critical | Do not launch until page exists |
+| Tracking not mature | High | Use Maximize Clicks, not Smart Bidding |
+| Competitor/far-location traffic | High | Add competitor/far-location negatives |
+| Budget spread too thin | Medium | Start with 4 ad groups only |
+| Homepage fallback | Critical | Final URL must be `/veterinarian-edmonds` |
+
+---
+
+## Launch Decision
+
+Current decision:
+
+```text
+Needs landing page first
+```
+
+Do not enable the campaign until:
+
+1. `/veterinarian-edmonds` is live.
+2. Landing page CTAs are QA-passed.
+3. Phone number is correct.
+4. Booking link works.
+5. Form/request callback path works or is intentionally excluded.
+6. Campaign is built paused first.
+7. Codex pre-launch QA passes.
+
+---
+
+## Manual Build Rule
+
+When ready, build the campaign manually in Google Ads and keep it paused initially.
+
+Do not enable immediately.
+
+After manual build, run Codex pre-launch QA.
 
 ---
 
 ## Post-Launch Monitoring Plan
 
-First 7 days:
+First 7 days after launch:
 
 - review search terms daily
-- watch for urgent terms leaking into general campaign
+- watch for urgent/emergency leakage
 - watch for competitor terms
 - watch for shelter/adoption/job/grooming/boarding terms
-- watch location quality
-- watch phone/booking/form conversions
-- do not increase budget immediately
-- do not switch to Target CPA
+- watch far-location terms
+- monitor mobile performance
+- monitor call/booking/form actions
+- do not increase budget
+- do not switch to Smart Bidding
+- do not add Broad Match
+
+---
+
+## Final Launch Recommendation
+
+Approved for preparation.
+
+Not approved for live launch until the landing page is complete and QA passes.
